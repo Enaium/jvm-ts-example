@@ -1,8 +1,6 @@
 declare const Java: {
   type(className: string): System
 }
-const System = Java.type('java.lang.System')
-
 interface System {
   out: {
     println(message: string): void
@@ -11,5 +9,6 @@ interface System {
     println(message: string): void
   }
 }
+const System = Java.type('java.lang.System')
 export { System }
 export default System
