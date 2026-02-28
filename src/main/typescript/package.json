@@ -1,0 +1,14 @@
+{
+  "name": "jvm-ts-example",
+  "module": "example",
+  "type": "module",
+  "scripts": {
+    "build": "bun build src/main.ts --outdir=../resources"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
